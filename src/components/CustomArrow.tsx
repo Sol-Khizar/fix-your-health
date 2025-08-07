@@ -11,7 +11,7 @@ export const NextArrow = ({ className, style, onClick }: ArrowProps) => {
     <div
       className={className}
       onClick={onClick}
-      style={{ ...style, display: "block", right: 10, zIndex: 1 }}
+      style={{ ...style, display: "block", right: 20, zIndex: 1 }}
     >
       <FaAngleRight size={34} color="black" />
     </div>

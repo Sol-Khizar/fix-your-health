@@ -31,3 +31,8 @@ html, body {
   width: 90% !important;
   margin: 0 auto;
 }
+
+.slick-prev::before,
+.slick-next::before {
+  display: none !important;
+}

@@ -16,7 +16,7 @@ const TransformationPlanCard = ({
 }: TransformationPlanCardprops) => {
   return (
     <>
-      <div className="bg-[#2D543D] text-white w-5/6  md:w-1/4     flex flex-col  rounded-lg px-10  h-[630px]    mx-auto md:mx-0">
+      <div className="bg-[#2D543D] text-white w-5/6  md:w-1/4     flex flex-col  rounded-lg px-10  h-[930px] md:h-[630px]   mx-auto md:mx-0">
         <h1 className="text-2xl mt-3 text-center">{title}</h1>
         <button className="bg-[#888] text-white text-center px-9   py-1.5 rounded-md mt-4 w-fit mx-auto">
           {packageText}
@@ -24,13 +24,13 @@ const TransformationPlanCard = ({
         <div className="mt-5 flex-1  ">
           <div className="flex flex-col justify-center  h-full ">
             {cardServices.map((service) => (
-              <p
+              <div
                 key={service.id}
                 className="flex items-center text-xl justify-start  mb-3 "
               >
                 <FaCheck className="mr-5 text-xl " />
                 <p>{service.text}</p>
-              </p>
+              </div>
             ))}
           </div>
         </div>
