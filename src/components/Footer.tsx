@@ -1,6 +1,6 @@
-import { FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { FaInstagram, FaYoutube } from "react-icons/fa6";
-import { MdCall } from "react-icons/md";
+// import { MdCall } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -12,10 +12,10 @@ const Footer = () => {
           <FaYoutube className="text-5xl" />
         </div>
 
-        <div>
+        {/* <div>
           <FaWhatsapp className="text-5xl fixed bottom-6 right-20 border rounded-full p-3 w-14 h-14 bg-green-600 text-white" />
           <MdCall className="text-5xl fixed bottom-6 left-20 rounded-full p-3 w-14 h-14 border" />
-        </div>
+        </div> */}
       </div>
     </>
   );
