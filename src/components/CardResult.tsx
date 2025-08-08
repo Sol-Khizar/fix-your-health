@@ -1,7 +1,7 @@
 type resultCardProps = {
   imagePath: string;
 };
-const ResultCard = ({ imagePath }: resultCardProps) => {
+const CardResult = ({ imagePath }: resultCardProps) => {
   return (
     <>
       <div>
@@ -11,4 +11,4 @@ const ResultCard = ({ imagePath }: resultCardProps) => {
   );
 };
 
-export default ResultCard;
+export default CardResult;

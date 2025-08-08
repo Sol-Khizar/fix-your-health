@@ -1,7 +1,6 @@
 import Slider from "react-slick";
-
-import ResultCard from "../components/ResultCard";
 import { NextArrow, PrevArrow } from "../components/CustomArrow";
+import CardResult from "../components/CardResult";
 
 const Result = () => {
   const imageLocation = [
@@ -91,7 +90,7 @@ const Result = () => {
           <Slider {...settings}>
             {imageLocation.map((img) => (
               <div key={img.id} className="px-4">
-                <ResultCard imagePath={img.location} />
+                <CardResult imagePath={img.location} />
               </div>
             ))}
           </Slider>
