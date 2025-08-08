@@ -7,11 +7,18 @@ interface ArrowProps {
 }
 
 export const NextArrow = ({ className, style, onClick }: ArrowProps) => {
+  const isMobile = typeof window !== "undefined" && window.innerWidth <= 640;
+
   return (
     <div
-      className={className}
+      className={`${className} absolute top-1/2 transform -translate-y-1/2`}
       onClick={onClick}
-      style={{ ...style, display: "block", right: 20, zIndex: 1 }}
+      style={{
+        ...style,
+        display: "block",
+        right: isMobile ? "-10px" : "-50px",
+        zIndex: 10,
+      }}
     >
       <FaAngleRight size={34} color="black" />
     </div>
@@ -19,11 +26,18 @@ export const NextArrow = ({ className, style, onClick }: ArrowProps) => {
 };
 
 export const PrevArrow = ({ className, style, onClick }: ArrowProps) => {
+  const isMobile = typeof window !== "undefined" && window.innerWidth <= 640;
+
   return (
     <div
-      className={className}
+      className={`${className} absolute top-1/2 transform -translate-y-1/2`}
       onClick={onClick}
-      style={{ ...style, display: "block", left: 10, zIndex: 1 }}
+      style={{
+        ...style,
+        display: "block",
+        left: isMobile ? "-10px" : "-50px",
+        zIndex: 10,
+      }}
     >
       <FaAngleLeft size={34} color="black" />
     </div>

@@ -89,21 +89,19 @@ const Testimonial = () => {
           Testimonials
         </h1>
 
-        <div className="md:w-5/6  w-full  mx-auto mt-24 pb-20">
-          <div className="slider-container  ">
-            <Slider {...settings}>
-              {testimonialCard.map((review) => (
-                <div key={review.id} className="px-4">
-                  <TestimonialCard
-                    clientName={review.clientName}
-                    clientReview={review.clientReview}
-                    image={review.image}
-                    star={review.star}
-                  />
-                </div>
-              ))}
-            </Slider>
-          </div>
+        <div className="relative md:w-5/6 w-[90%] mx-auto mt-24 pb-20">
+          <Slider {...settings}>
+            {testimonialCard.map((review) => (
+              <div key={review.id} className="px-4">
+                <TestimonialCard
+                  clientName={review.clientName}
+                  clientReview={review.clientReview}
+                  image={review.image}
+                  star={review.star}
+                />
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
     </>

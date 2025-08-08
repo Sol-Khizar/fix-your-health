@@ -12,9 +12,9 @@ const TestimonialCard = ({
   star,
 }: TestimonialCardProps) => {
   return (
-    <div className="bg-[#bce57b] rounded-3xl  w-full ">
+    <div className="bg-[#bce57b] rounded-3xl  md:w-full w-[95%]  mx-auto ">
       <div className="hidden md:block">
-        <div className=" flex flex-col md:flex-row p-5 items-center md:items-end gap-8 ">
+        <div className=" flex flex-col md:flex-row p-5 items-center md:items-end gap-0 ">
           <div className="flex flex-col md:w-1/4  w-3/4 ">
             <img src={`/testimonial/${image}`} alt={image} />
           </div>
@@ -27,8 +27,8 @@ const TestimonialCard = ({
           </div>
         </div>
       </div>
-      <div className="md:hidden block">
-        <div className=" flex flex-col md:flex-row p-5 items-center md:items-end gap-8 ">
+      <div className="md:hidden block ">
+        <div className=" flex flex-col md:flex-row p-5 items-center md:items-end gap-8">
           <div className="flex flex-col md:w-1/4  w-3/4 ">
             <img src={`/testimonial/${image}`} alt={image} />
           </div>
@@ -37,10 +37,8 @@ const TestimonialCard = ({
             <h3 className="text-md text-[#FF7900]">{star}</h3>
           </div>
         </div>
-        <div className="w-full px-10  ">
-          <p className=" text-blue font-medium text-sm pb-10 ">
-            {clientReview}
-          </p>
+        <div className="w-full px-4  ">
+          <p className=" text-blue font-medium text-sm pb-5 ">{clientReview}</p>
         </div>
       </div>
     </div>
