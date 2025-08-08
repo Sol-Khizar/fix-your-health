@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 
-import ResultCard from "../components/resultCard";
+import ResultCard from "../components/ResultCard";
 import { NextArrow, PrevArrow } from "../components/CustomArrow";
 
 const Result = () => {
