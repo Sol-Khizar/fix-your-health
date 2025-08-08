@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),tailwindcss(),
     
   ],
-  base:'/fix-your-health'
+  base:'/fix-your-health/'
 })

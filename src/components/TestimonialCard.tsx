@@ -14,7 +14,7 @@ const TestimonialCard = ({
   return (
     <div className="bg-[#bce57b] rounded-3xl  md:w-full w-[95%]  mx-auto ">
       <div className="hidden md:block">
-        <div className=" flex flex-col md:flex-row p-5 items-center md:items-end gap-0 ">
+        <div className=" flex flex-col md:flex-row p-5 items-center md:items-end gap-0   ">
           <div className="flex flex-col md:w-1/4  w-3/4 ">
             <img src={`/testimonial/${image}`} alt={image} />
           </div>
