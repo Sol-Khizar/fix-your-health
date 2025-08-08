@@ -16,7 +16,7 @@ export const NextArrow = ({ className, style, onClick }: ArrowProps) => {
       style={{
         ...style,
         display: "block",
-        right: isMobile ? "-10px" : "-50px",
+        right: isMobile ? "-2px" : "-50px",
         zIndex: 10,
       }}
     >
@@ -35,7 +35,7 @@ export const PrevArrow = ({ className, style, onClick }: ArrowProps) => {
       style={{
         ...style,
         display: "block",
-        left: isMobile ? "-10px" : "-50px",
+        left: isMobile ? "-2px" : "-50px",
         zIndex: 10,
       }}
     >

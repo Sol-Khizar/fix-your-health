@@ -1,7 +1,7 @@
 const Booking = () => {
   return (
-    <div className="bg-[#FF9A3F]  h-[700px] md:h-[500px] w-5/6  md:w-3/4 mx-auto mt-36 rounded-4xl">
-      <div className="w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center h-full gap-20">
+    <div className="bg-[#FF9A3F] h-[500px] w-5/6  md:w-3/4 mx-auto mt-12 md:mt-36 rounded-4xl">
+      <div className="w-3/4 mx-auto flex flex-col md:flex-row items-center justify-center h-full gap-10 md:gap-20 ">
         <img
           src="booking/img-5.webp"
           alt="cover"

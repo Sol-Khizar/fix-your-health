@@ -71,12 +71,12 @@ const Result = () => {
   };
 
   return (
-    <div className="bg-[#DEF8DF]  mt-20  ">
-      <h1 className="pt-20  text-xl md:text-5xl text-center font-semibold text-blue">
+    <div className="bg-[#DEF8DF] mt-10  md:mt-20   ">
+      <h1 className="pt-5  md:pt-20   text-xl md:text-5xl text-center font-semibold text-blue">
         Our{" "}
         <span className="  border-b-[#FF9A3F] border-b-4 px-3 ">results</span>
       </h1>
-      <p className="w-3/5 mx-auto text-md text-center mt-5 text-blue font-medium">
+      <p className="w-4/5 md:w-3/5  mx-auto text-sm md:text-md text-center mt-5 text-blue font-medium">
         These heroes took the first step - reaching out to us and from there,
         their weight loss journey started. Their results may look like a dream
         but it is a reality for all my clients. Want to build a healthy
@@ -85,7 +85,7 @@ const Result = () => {
         loss journey today!
       </p>
 
-      <div className="w-5/6 mx-auto mt-24 pb-20">
+      <div className="w-5/6 mx-auto mt-10 md:mt-24 pb-20">
         <div className="slider-container  ">
           <Slider {...settings}>
             {imageLocation.map((img) => (

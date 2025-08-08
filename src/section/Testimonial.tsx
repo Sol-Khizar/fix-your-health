@@ -84,12 +84,12 @@ const Testimonial = () => {
   ];
   return (
     <>
-      <div className="mt-32">
+      <div className="mt-12 md:mt-32">
         <h1 className="text-blue text-4xl font-bold text-center mb-20">
           Testimonials
         </h1>
 
-        <div className="relative md:w-5/6 w-[90%] mx-auto mt-24 pb-20">
+        <div className="relative md:w-5/6 w-[90%] mx-auto mt-6 md:mt-24 pb-9 md:pb-20">
           <Slider {...settings}>
             {testimonialCard.map((review) => (
               <div key={review.id} className="px-4">
