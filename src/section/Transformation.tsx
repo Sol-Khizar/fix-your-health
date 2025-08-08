@@ -42,7 +42,7 @@ const Transformation = () => {
           />
         </div>
 
-        <div className="grid grid-rows-2 md:grid-cols-5 md:grid-rows-1 md:w-4/5 w-5/6 mx-auto gap-2 md:gap-6 mt-10 pb-10  md:pb-36 ">
+        <div className="grid grid-rows-2 md:grid-cols-5 md:grid-rows-1 md:w-4/5 w-5/6 mx-auto gap-0 md:gap-6 mt-0  md:mt-10 pb-10  md:pb-36 ">
           <div className="flex items-center justify-center md:col-span-2 col-span-5  ">
             <h2 className="text-3xl md:text-5xl/snug text-blue font-semibold text-center md:text-left ">
               Start your Journey with us
