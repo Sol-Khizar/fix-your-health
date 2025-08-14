@@ -1,7 +1,25 @@
+import { useForm, type SubmitHandler } from "react-hook-form";
 import FormInput from "../components/FormInput";
 import Header from "../components/Header";
 
+interface InputFormProp {
+  name: string;
+  phone: string;
+  city: string;
+}
+
 const HeroSection = () => {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm<InputFormProp>();
+
+  const onSubmit: SubmitHandler<InputFormProp> = (data) => {
+    console.log(data);
+    reset();
+  };
   return (
     <>
       <div className="bg-[url(/banner/home-banner.PNG)] ">
@@ -27,13 +45,66 @@ const HeroSection = () => {
             <p className=" text-[#002040] text-center font-bold text-3xl ">
               Get Started Today and Feel the Difference!
             </p>
-            <FormInput placeholder="Name*" />
-            <FormInput placeholder="Phone*" />
-            <FormInput placeholder="City*" />
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <FormInput
+                placeholder="Name*"
+                {...register("name", {
+                  required: "Name is required",
+                  minLength: {
+                    value: 2,
+                    message: "Name must be at least 2 characters",
+                  },
+                  maxLength: {
+                    value: 50,
+                    message: "Name must be less than 50 characters",
+                  },
+                  pattern: {
+                    value: /^[^\s].*$/,
+                    message: "Name cannot start with a space",
+                  },
+                })}
+                error={errors.name?.message}
+              />
 
-            <button className="text-white bg-[#FF9A3F] w-full mt-3 py-3 rounded-full border border-transparent  transition-colors duration-500 ease-in-out hover:bg-white hover:border-[#FF9A3F] hover:text-[#FF9A3F]">
-              Consult Now
-            </button>
+              <FormInput
+                placeholder="Phone*"
+                {...register("phone", {
+                  required: "Phone number is required",
+                  pattern: {
+                    value: /^[0-9]{10}$/,
+                    message: "Phone must be 10 digits",
+                  },
+                })}
+                error={errors.phone?.message}
+              />
+
+              <FormInput
+                placeholder="City*"
+                {...register("city", {
+                  required: "City is required",
+                  minLength: {
+                    value: 2,
+                    message: "City must be at least 2 characters",
+                  },
+                  maxLength: {
+                    value: 50,
+                    message: "City must be less than 50 characters",
+                  },
+                  pattern: {
+                    value: /^[^\s].*$/,
+                    message: "City cannot start with a space",
+                  },
+                })}
+                error={errors.city?.message}
+              />
+
+              <button
+                type="submit"
+                className="text-white bg-[#FF9A3F] w-full mt-3 py-3 rounded-full border border-transparent transition-colors duration-500 ease-in-out hover:bg-white hover:border-[#FF9A3F] hover:text-[#FF9A3F]"
+              >
+                Consult Now
+              </button>
+            </form>
           </div>
         </div>
       </div>
