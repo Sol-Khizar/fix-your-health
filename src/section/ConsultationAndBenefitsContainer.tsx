@@ -4,30 +4,34 @@ const ConsultationAndBenefitsContainer = () => {
   const textdata1 = [
     {
       id: "1",
-      text: " PCOS",
+      text: "Overweight / Obesity / Underweight",
     },
     {
       id: "2",
-      text: "Overweight/ Obesity/ Underweight",
+      text: "Gut & Digestive Issues",
     },
 
     {
       id: "3",
-      text: "Pre-Post pregnancy",
+      text: "PCOD / PCOS & Hormonal Imbalances",
     },
 
     {
       id: "4",
-      text: "Diabetes",
+      text: "Hypothyroidism & Thyroid Concerns",
     },
 
     {
       id: "5",
-      text: "Cholesterol",
+      text: "Post-Menopause Health",
     },
     {
       id: "6",
-      text: "Any lifestyle-based health issues",
+      text: "High Cholesterol & Heart Health",
+    },
+    {
+      id: "7",
+      text: "Lifestyle Diseases & Wellness Goals",
     },
   ];
   const textdata2 = [
@@ -61,7 +65,7 @@ const ConsultationAndBenefitsContainer = () => {
   ];
   return (
     <>
-      <div className="grid grid-rows-1 md:grid-cols-2  w-5/6 md:w-4/5 mx-auto mt-10 md:mt-36 gap-14">
+      <div className="grid grid-rows-1 md:grid-cols-2  w-5/6 md:w-4/5 mx-auto mt-10 md:mt-36 gap-32 md:gap-14">
         <ConsultationAndBenefitsCard
           buttonText="I think I am ready!"
           textdata={textdata1}

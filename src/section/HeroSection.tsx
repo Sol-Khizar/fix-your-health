@@ -17,9 +17,20 @@ const HeroSection = () => {
   } = useForm<InputFormProp>();
 
   const onSubmit: SubmitHandler<InputFormProp> = (data) => {
-    console.log(data);
+    const phoneNumber = "918693809067";
+
+    const message = `*New Consultation Request*%0A
+     Name: ${data.name}%0A
+     Phone: ${data.phone}%0A
+     City: ${data.city}`;
+
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
+
+    window.open(whatsappURL, "_blank");
+
     reset();
   };
+
   return (
     <>
       <div className="bg-[url(/banner/home-banner.PNG)] ">

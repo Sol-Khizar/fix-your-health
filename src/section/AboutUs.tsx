@@ -30,10 +30,16 @@ const AboutUs = () => {
           About <span className="border-b-4 border-[#FF9A3F]">Us</span>
         </h1>
         <p className="mt-5 w-5/6 md:w-4/6 mx-auto text-center font-semibold text-sm md:text-lg mb-10 text-[#002040]">
-          At Health Studio, we redefine diets with holistic meal plans for
-          healthy weight and managing medical conditions. Our focus is
-          personalization based on your history and fitness goals. Food is your
-          medicine, guiding you to wellness
+          At Ayuvive, we believe true wellness goes beyond diets and quick
+          fixes. We blend ancient Ayurvedic wisdom, modern nutrition, and energy
+          alignment to bring you a holistic approach to wellness. Our mission is
+          to help you align your inner energy, nourish your body, and transform
+          your health. We understand that every individual carries a unique
+          energy blueprint. By harmonizing this inner vibration with the right
+          nutrition and lifestyle choices, we bring you a holistic path to
+          health—one that nurtures your body, mind, and soul. With Ayuvive, you
+          don’t just chase goals—you create balance, vitality, and lasting
+          well-being.
         </p>
 
         <div className="flex flex-col justify-center items-center gap-14 md:flex-row ">

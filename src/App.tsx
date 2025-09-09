@@ -23,8 +23,8 @@ function App() {
         <ChangeYourLife />
         <Transformation />
         <FitBannner
-          title="Let's rebuild your relationship with food!"
-          buttonTitle="Get my plan!"
+          title="Become the Next Ayuvive Champion Today"
+          buttonTitle="Consult now!"
         />
         <Result />
         <Booking />

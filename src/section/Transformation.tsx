@@ -2,24 +2,37 @@ import TransformationPlanCard from "../components/TransformationPlanCard";
 
 const Transformation = () => {
   const threeMonth = [
-    { id: "1", text: "Bi-weekly diet plans" },
-    { id: "2", text: "Blood report review" },
-    { id: "3", text: "12+ diet charts" },
-    { id: "4", text: "Home/gym workouts" },
-    { id: "5", text: "Eat-out menu help" },
-    { id: "6", text: "Healthy meal tips" },
-    { id: "7", text: "Weekly check-ins" },
+    {
+      id: "1",
+      text: "Weight Management Plan - Sustainable weight with nutrition, lifestyle & wellness strategies",
+    },
+    {
+      id: "2",
+      text: "Joint Pain Relief Program - Relieve stiffness, reduce inflammation & regain mobility",
+    },
+    {
+      id: "3",
+      text: "Women's Wellness Program - Balanced hormones, emotional alignment & holistic care (PCOD/PCOS/menopause)",
+    },
+    {
+      id: "4",
+      text: "Gut Reset Program - Cleanse gut, restore digestion & boost overall wellness",
+    },
+    {
+      id: "5",
+      text: "Lifestyle Disease Support - Manage diabetes, thyroid imbalance, hypertension & cholesterol",
+    },
   ];
 
-  const sixMonth = [
-    { id: "11", text: "12 progress check-ins" },
-    { id: "12", text: "Chat support (Mon–Sat)" },
-    { id: "13", text: "Habit & lifestyle tips" },
-    { id: "14", text: "Progress tracking" },
-    { id: "15", text: "Sleep & stress tips" },
-    { id: "16", text: "Monthly call reviews" },
-    { id: "17", text: "Supplement suggestions" },
-  ];
+  // const sixMonth = [
+  //   { id: "11", text: "12 progress check-ins" },
+  //   { id: "12", text: "Chat support (Mon–Sat)" },
+  //   { id: "13", text: "Habit & lifestyle tips" },
+  //   { id: "14", text: "Progress tracking" },
+  //   { id: "15", text: "Sleep & stress tips" },
+  //   { id: "16", text: "Monthly call reviews" },
+  //   { id: "17", text: "Supplement suggestions" },
+  // ];
 
   return (
     <>
@@ -29,16 +42,11 @@ const Transformation = () => {
             Tranformation Plan
           </span>
         </h1>
-        <div className="flex flex-col md:flex-row  justify-center   mt-10  gap-7 md:gap-32">
+        <div className="flex flex-col md:flex-row  justify-center   mt-10  gap-7 md:gap-32 ">
           <TransformationPlanCard
-            title="3 month transformation"
+            title="Our services"
             packageText="Silver Package"
             cardServices={threeMonth}
-          />
-          <TransformationPlanCard
-            title="6 month transformation"
-            packageText="Gold Package"
-            cardServices={sixMonth}
           />
         </div>
 
