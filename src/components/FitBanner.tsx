@@ -1,9 +1,9 @@
-type fitbannerProps = {
+type FitBannerProps = {
   title: string;
   buttonTitle: string;
 };
 
-const FitBannner = ({ title, buttonTitle }: fitbannerProps) => {
+const FitBanner = ({ title, buttonTitle }: FitBannerProps) => {
   return (
     <div className="mt-8 md:mt-14  relative ">
       <div className="flex flex-col  md:flex-row md:justify-around items-center bg-[#FF9A3F] w-5/6 md:w-3/4  mx-auto  rounded-2xl py-8 ">
@@ -18,4 +18,4 @@ const FitBannner = ({ title, buttonTitle }: fitbannerProps) => {
   );
 };
 
-export default FitBannner;
+export default FitBanner;

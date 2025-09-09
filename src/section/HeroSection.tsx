@@ -17,7 +17,7 @@ const HeroSection = () => {
   } = useForm<InputFormProp>();
 
   const onSubmit: SubmitHandler<InputFormProp> = (data) => {
-    const phoneNumber = "918693809067";
+    const phoneNumber = "918433575788";
 
     const message = `*New Consultation Request*%0A
      Name: ${data.name}%0A
@@ -33,7 +33,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="bg-[url(/banner/home-banner.PNG)] ">
+      <div className="bg-[url(/assets/banner-bg.png)] ">
         <Header />
         <div className="grid  grid-cols-12 place-items-center w-full md:w-4/5  mx-auto  gap-5 md:gap-0 mt-[-8px] md:mt-[-80px]    ">
           <div className="col-span-12 md:col-span-3 px-4 md:px-0 relative z-0 md:left-11 left-0">
@@ -44,16 +44,16 @@ const HeroSection = () => {
               Eat right & lose weight with
             </p>
             <p className="text-xl md:text-lg font-bold mt-3 text-[#FF9A3F]">
-              Dt. Richa Doshi
+              Dt. Aarti Jadhav
             </p>
           </div>
           <img
-            src="/herosection-image/home-middle-img.webp "
-            alt="middle image"
-            className=" col-span-12 md:col-span-5 relative z-10 max-h-[90vh] object-contain  "
+            src="/assets/aarti.png"
+            alt="Dr Aarti"
+            className="col-span-12 md:col-span-5 relative z-10 max-h-[90vh] object-contain"
           />
-          <div className="col-span-12 md:col-span-3 px-4 md:px-0   ">
-            <p className=" text-[#002040] text-center font-bold text-3xl ">
+          <div className="col-span-12 md:col-span-3 px-4 md:px-0">
+            <p className=" text-[#002040] text-center font-bold text-3xl">
               Get Started Today and Feel the Difference!
             </p>
             <form onSubmit={handleSubmit(onSubmit)}>
@@ -119,12 +119,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-
-      <img
-        src="banner/awardImage.webp"
-        alt="awardImage"
-        className=" w-4/5 md:w-3/5 mx-auto my-12 "
-      />
     </>
   );
 };

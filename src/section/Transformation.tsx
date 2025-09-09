@@ -24,16 +24,6 @@ const Transformation = () => {
     },
   ];
 
-  // const sixMonth = [
-  //   { id: "11", text: "12 progress check-ins" },
-  //   { id: "12", text: "Chat support (Mon–Sat)" },
-  //   { id: "13", text: "Habit & lifestyle tips" },
-  //   { id: "14", text: "Progress tracking" },
-  //   { id: "15", text: "Sleep & stress tips" },
-  //   { id: "16", text: "Monthly call reviews" },
-  //   { id: "17", text: "Supplement suggestions" },
-  // ];
-
   return (
     <>
       <div className="bg-[#DEF8DF] mt-20  md:mb-40 mb-10">
@@ -45,7 +35,7 @@ const Transformation = () => {
         <div className="flex flex-col md:flex-row  justify-center   mt-10  gap-7 md:gap-32 ">
           <TransformationPlanCard
             title="Our services"
-            packageText="Silver Package"
+            packageText=""
             cardServices={threeMonth}
           />
         </div>
@@ -58,7 +48,7 @@ const Transformation = () => {
           </div>
           <div className="col-span-5 md:col-span-3">
             <img
-              src="transformation/Our-process.webp"
+              src="assets/process.webp"
               alt="our process"
               className="w-full"
             />

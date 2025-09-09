@@ -1,6 +1,6 @@
 import { FaCheck } from "react-icons/fa";
 
-type TransformationPlanCardprops = {
+type TransformationPlanCardProps = {
   title: string;
   packageText: string;
   cardServices: {
@@ -13,14 +13,16 @@ const TransformationPlanCard = ({
   title,
   packageText,
   cardServices,
-}: TransformationPlanCardprops) => {
+}: TransformationPlanCardProps) => {
   return (
     <>
       <div className="bg-[#2D543D] text-white w-5/6  md:w-1/3     flex flex-col  rounded-lg px-10     mx-auto md:mx-0 ">
         <h1 className="text-2xl mt-3 text-center">{title}</h1>
-        <button className="bg-[#888] text-white text-center px-9   py-1.5 rounded-md mt-4 w-fit mx-auto">
-          {packageText}
-        </button>
+        {packageText && (
+          <button className="bg-[#888] text-white text-center px-9   py-1.5 rounded-md mt-4 w-fit mx-auto">
+            {packageText}
+          </button>
+        )}
         <div className="mt-5  ">
           <div className="flex flex-col justify-center h-full">
             {cardServices.map((service) => (
