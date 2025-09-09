@@ -25,7 +25,7 @@ const AboutUs = () => {
   // ];
 
   return (
-    <div className=" mt-10 bg-[#DEF8DF] md:pb-40 pb-16">
+    <div className="bg-[#DEF8DF]  pb-16">
       <h1 className="text-4xl text-center text-[#002040] pt-8 ">
         About <span className="border-b-4 border-[#FF9A3F]">Us</span>
       </h1>

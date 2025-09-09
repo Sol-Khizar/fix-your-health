@@ -16,7 +16,7 @@ const TransformationPlanCard = ({
 }: TransformationPlanCardProps) => {
   return (
     <>
-      <div className="bg-[#2D543D] text-white w-5/6  md:w-1/3     flex flex-col  rounded-lg px-10     mx-auto md:mx-0 ">
+      <div className="bg-[#2D543D] text-white w-5/6  md:w-1/4     flex flex-col  rounded-lg px-10     mx-auto md:mx-0 ">
         <h1 className="text-2xl mt-3 text-center">{title}</h1>
         {packageText && (
           <button className="bg-[#888] text-white text-center px-9   py-1.5 rounded-md mt-4 w-fit mx-auto">

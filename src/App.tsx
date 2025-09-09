@@ -1,3 +1,4 @@
+import ConsultationForm from "./components/ConsultaionForm";
 import FitBanner from "./components/FitBanner";
 import Footer from "./components/Footer";
 import AboutUs from "./section/AboutUs";
@@ -16,6 +17,7 @@ function App() {
         <HeroSection />
         <AboutUs />
         <FitBanner
+          className="my-8 md:mt-14  "
           title="Become the Next Ayuvive Champion Today"
           buttonTitle="Consult now!"
         />
@@ -25,10 +27,7 @@ function App() {
         {/* <Result />
         <Booking />
         <Testimonial /> */}
-        <FitBanner
-          title="Weight loss isn't a task, it's a healthy habit!"
-          buttonTitle="Get Fit Today!"
-        />
+        <ConsultationForm />
         <Footer />
       </main>
     </>
