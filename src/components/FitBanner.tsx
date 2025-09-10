@@ -7,7 +7,7 @@ type FitBannerProps = {
 const FitBanner = ({ title, buttonTitle, className }: FitBannerProps) => {
   return (
     <div className={`  relative ${className}`}>
-      <div className="flex flex-col  md:flex-row md:justify-around items-center bg-[#FF9A3F] w-5/6 md:w-3/4  mx-auto  rounded-2xl py-8 ">
+      <div className="flex flex-col  md:flex-row md:justify-around items-center bg-[#FF9A3F] w-5/6 md:w-[80%]  mx-auto  rounded-2xl py-8 ">
         <h1 className="text-sm text-center md:text-left md:text-3xl text-black md:text-white font-semibold w-3/4  md:w-fit">
           {title}
         </h1>

@@ -35,7 +35,7 @@ const HeroSection = () => {
 
     <div className="bg-[url(/assets/banner-bg.png)] bg-cover bg-no-repeat bg-center   ">
       <Header />
-      <div className="grid  grid-cols-12 place-items-center w-full md:w-[90%]  mx-auto  gap-5 md:gap-0 mt-[-8px] md:mt-[-80px]    ">
+      <div className="grid  grid-cols-12 place-items-center w-full md:w-[85%]  mx-auto  gap-5 md:gap-0 mt-[-8px] md:mt-[-80px]    ">
         <div className="col-span-12 md:col-span-3 px-4 md:px-0 relative z-0 md:left-11 left-0">
           <h2 className="text-3xl md:text-5xl font-black text-[#002040] leading-[1.4] ">
             Don't starve yourself to lose weight

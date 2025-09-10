@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Left - Copyright */}
           <p className="text-sm text-gray-600">
-            © {new Date().getFullYear()} WellnessCare. All rights reserved.
+            © {new Date().getFullYear()} Fix Your Health. All rights reserved.
           </p>
 
           {/* Right - Social Icons */}

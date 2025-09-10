@@ -42,7 +42,7 @@ const AboutUs = () => {
         goals—you create balance, vitality, and lasting well-being.
       </p>
 
-      <div className="flex flex-col justify-center items-center gap-14 md:flex-row ">
+      <div className="flex flex-col  items-center gap-14 md:flex-row w-[80%] mx-auto">
         <img
           src="/assets/aarti_about.jpg"
           alt="aarti about"
