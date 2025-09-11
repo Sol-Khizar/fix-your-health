@@ -63,12 +63,11 @@ export default function InstagramReels() {
     }, []);
 
     return (
-        <div className="p-6 ">
-            <h1 className="text-center text-2xl  md:text-5xl text-blue w-4/5 mx-auto mb-8">
-                <span className="border-b-[#FF9A3F] border-b-4 pl-3">
-                    Latest Instagram Reels
-                </span>
+        <div >
+            <h1 className="text-center text-2xl  md:text-5xl text-blue w-4/5 mx-auto mb-3 md:mb-8 mt-3 md:mt-0">
+                Latest Instagram  <span className="border-b-4 border-[#FF9A3F]">Reels</span>
             </h1>
+
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-[82%] mx-auto pb-8  md:pb-14">
                 {reels.map((reel) => (

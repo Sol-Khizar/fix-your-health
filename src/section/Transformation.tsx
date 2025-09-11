@@ -70,14 +70,13 @@ const steps = [
 const Transformation = () => {
   return (
     <>
-      <div className="mt-5 ">
-        <h1 className="text-center text-2xl  md:text-5xl text-blue w-4/5 mx-auto pt-5">
-          <span className="border-b-[#FF9A3F] border-b-4 pl-3">
-            Tranformation Plan
-          </span>
+      <div className="md:mt-5 mt-14">
+
+        <h1 className="text-2xl md:text-4xl text-center text-[#002040] pt-4 ">
+          Tranformation  <span className="border-b-4 border-[#FF9A3F]">Plan</span>
         </h1>
 
-        <div className="grid gap-6 md:grid-cols-2 mt-16 w-[80%] mx-auto ">
+        <div className="grid gap-6 md:grid-cols-2 md:mt-8 mt-5 w-[80%] mx-auto ">
           {programs.map(({ title, desc, icon: Icon }) => (
             <div
               key={title}
@@ -92,14 +91,13 @@ const Transformation = () => {
           ))}
         </div>
 
-        <div className="w-5/6 md:w-[100%] mx-auto mt-0 md:mt-10 md:pb-8">
+        <div className="w-full mx-auto mt-0 md:mt-10 md:pb-8">
           <section className="py-1 px-4 sm:px-6 bg-gradient-to-b from-white via-amber-50 to-white">
             <div className="w-full mx-auto">
               <div className="text-center mb-8">
-                <h1 className="text-center text-xl md:text-5xl text-blue w-4/5 mx-auto mb-6 mt-10 md:mt-0">
-                  <span className="border-b-[#FF9A3F] border-b-4 pl-3">
-                    Start Your Journey With Us
-                  </span>
+
+                <h1 className="text-xl md:text-4xl text-center text-[#002040] pt-4  ">
+                  Start Your Journey   <span className="border-b-4 border-[#FF9A3F]">With Us</span>
                 </h1>
                 <p className="mt-2 text-gray-600 max-w-3xl   mx-auto">
                   A balanced blend of modern nutrition, Ayurveda and Chinese medicine for a
@@ -123,7 +121,7 @@ const Transformation = () => {
                   </svg>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 w-3/4 md:w-[82%] z-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 w-full md:w-[82%] z-10">
                   {steps.map((s, idx) => (
                     <motion.article
                       key={s.id}

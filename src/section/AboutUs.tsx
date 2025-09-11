@@ -25,12 +25,12 @@ const AboutUs = () => {
   // ];
 
   return (
-    <div className="bg-[#DEF8DF]  pb-16">
+    <div className="bg-[#DEF8DF]  md:pb-16 pb-10">
       <h1 className="text-4xl text-center text-[#002040] pt-8 ">
         About <span className="border-b-4 border-[#FF9A3F]">Us</span>
       </h1>
 
-      <p className="mt-5 w-5/6 md:w-4/6 mx-auto text-center font-semibold text-sm md:text-lg mb-10 text-[#002040]">
+      <p className="mt-5 w-5/6 md:w-4/6 mx-auto text-center  text-sm md:text-lg mb-10 text-[#002040]">
         At Ayuvive, we believe true wellness goes beyond diets and quick fixes.
         We blend ancient Ayurvedic wisdom, modern nutrition, and energy
         alignment to bring you a holistic approach to wellness. Our mission is
@@ -42,13 +42,13 @@ const AboutUs = () => {
         goals—you create balance, vitality, and lasting well-being.
       </p>
 
-      <div className="flex flex-col  items-center gap-14 md:flex-row w-[80%] mx-auto">
+      <div className="flex flex-col  items-center justify-center gap-14 md:flex-row w-[80%] mx-auto">
         <img
-          src="/assets/aarti_about.jpg"
+          src="/assets/aarti-about-2.png"
           alt="aarti about"
-          className="w-4/5 md:w-2/5 rounded-xl "
+          className="w-4/5 md:w-1/3 rounded-xl "
         />
-        <p className="text-[#002040]  text-sm md:text-xl font-semibold w-4/5  md:w-2/5 ">
+        <p className="text-[#002040]  text-md md:text-xl font-semibold w-4/5  md:w-2/5 ">
           With over 5 years of experience in the health and wellness industry, I’ve worked with leading institutions as a Junior to Senior Dietician and Team Leader. Through my journey, I’ve helped clients overcome a variety of health challenges by identifying their core issues.
           To address these more effectively, I developed the Ayuvive Method — a unique blend of AI technology, Nutrition, and Ayurveda.
           This integrative approach targets the root cause of illness, not just the symptoms.
@@ -59,7 +59,7 @@ const AboutUs = () => {
           {counterInfo.map((count) => (
             <Counter
               key={count.id}
-              counter={count.counter}
+              counter={count.counter}  
               infoTitle={count.title}
             />
           ))}

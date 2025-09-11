@@ -19,7 +19,7 @@ const ConsultationAndBenefitsCard = ({
           {headingText}
         </h1>
       </div>
-      <div className="bg-[#d8eeb4] flex-1  flex flex-col justify-center ">
+      <div className="bg-[#d8eeb4] flex-1 pt-5 md:pt-0  flex flex-col justify-center ">
         {textdata.map((text) => (
           <p key={text.id} className="pl-16 text-lg  md:text-xl mb-5 pr-2">
             {text.text}

@@ -50,10 +50,10 @@ const HeroSection = () => {
         <img
           src="/assets/aarti.png"
           alt="Dr Aarti"
-          className="col-span-12 md:col-span-6 relative z-10 max-h-[90vh] object-contain"
+          className="col-span-12 md:col-span-6 relative z-10 max-h-[90vh] object-contain mt-5 md:mt-0"
         />
-        <div className="col-span-12 md:col-span-3 px-4 md:px-0 pl-16 ">
-          <p className=" text-[#002040] text-center font-bold text-3xl">
+        <div className="col-span-12 md:col-span-3  md:px-0  w-3/4 mb-10 mt-4 md:mt-0 md:mb-0 md:w-full  mx-auto">
+          <p className=" text-[#002040] text-center font-bold text-xl md:text-3xl  ">
             Get Started Today and Feel the Difference!
           </p>
           <form onSubmit={handleSubmit(onSubmit)}>
