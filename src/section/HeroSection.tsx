@@ -35,10 +35,10 @@ const HeroSection = () => {
 
     <div className="bg-[url(/assets/banner-bg.png)] bg-cover bg-no-repeat bg-center   ">
       <Header />
-      <div className="grid  grid-cols-12 place-items-center w-full md:w-[85%]  mx-auto  gap-5 md:gap-0 mt-[-8px] md:mt-[-80px]    ">
-        <div className="col-span-12 md:col-span-3 px-4 md:px-0 relative z-0 md:left-11 left-0">
-          <h2 className="text-3xl md:text-5xl font-black text-[#002040] leading-[1.4] ">
-            Don't starve yourself to lose weight
+      <div className="grid  grid-cols-12 place-items-center w-full md:w-[80%]  mx-auto    mt-[-8px] md:mt-[-80px]     ">
+        <div className="col-span-12 md:col-span-3 px-4 md:px-0 relative z-0 md:left-2 left-0 ">
+          <h2 className="text-3xl md:text-4xl font-black text-[#002040] leading-[1.4] ">
+            Get your personalized wellness plan with the Ayuvive Method.
           </h2>
           <p className="text-xl md:text-lg font-bold mt-3 text-[#002040] ">
             Eat right & lose weight with
@@ -50,9 +50,9 @@ const HeroSection = () => {
         <img
           src="/assets/aarti.png"
           alt="Dr Aarti"
-          className="col-span-12 md:col-span-5 relative z-10 max-h-[90vh] object-contain"
+          className="col-span-12 md:col-span-6 relative z-10 max-h-[90vh] object-contain"
         />
-        <div className="col-span-12 md:col-span-3 px-4 md:px-0">
+        <div className="col-span-12 md:col-span-3 px-4 md:px-0 pl-16 ">
           <p className=" text-[#002040] text-center font-bold text-3xl">
             Get Started Today and Feel the Difference!
           </p>

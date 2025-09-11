@@ -46,15 +46,13 @@ const AboutUs = () => {
         <img
           src="/assets/aarti_about.jpg"
           alt="aarti about"
-          className="w-4/5 md:w-2/5 "
+          className="w-4/5 md:w-2/5 rounded-xl "
         />
         <p className="text-[#002040]  text-sm md:text-xl font-semibold w-4/5  md:w-2/5 ">
-          Dt. Richa Doshi, a renowned dietician, brings over a decade of global
-          expertise. Her innovative body transformation programs and
-          postgraduate degree in Clinical Nutrition and Dietetics have made her
-          Mumbai's leading celebrity nutritionist. Her approach is holistic,
-          tailored to individual needs, steering clear of diet fads, and
-          ensuring a more enjoyable dieting journey.
+          With over 5 years of experience in the health and wellness industry, I’ve worked with leading institutions as a Junior to Senior Dietician and Team Leader. Through my journey, I’ve helped clients overcome a variety of health challenges by identifying their core issues.
+          To address these more effectively, I developed the Ayuvive Method — a unique blend of AI technology, Nutrition, and Ayurveda.
+          This integrative approach targets the root cause of illness, not just the symptoms.
+          At Ayuvive, we offer a personalized path to long-term wellness.
         </p>
       </div>
       {/* <div className="grid grid-cols-2 md:hidden  gap-2  gap-y-6 w-full  mt-8">

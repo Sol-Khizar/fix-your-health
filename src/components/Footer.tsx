@@ -21,16 +21,16 @@ const Footer = () => {
       </div> */}
 
       <footer className="bg-gray-50 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          {/* Left - Copyright */}
+        <div className="w-full md:w-[94%]  mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-y-6 md:gap-y-0 ">
+
           <p className="text-sm text-gray-600">
-            © {new Date().getFullYear()} Fix Your Health. All rights reserved.
+            © {new Date().getFullYear()} Ayuvive. All rights reserved.
           </p>
 
           {/* Right - Social Icons */}
-          <div className="flex gap-4">
+          <div className="flex gap-36 md:gap-4">
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/918433575788"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-green-600 transition"
@@ -38,7 +38,7 @@ const Footer = () => {
               <MessageCircle className="w-10 h-10" />
             </a>
             <a
-              href="https://instagram.com/yourpage"
+              href="https://www.instagram.com/ayuvive.health"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-pink-500 transition"

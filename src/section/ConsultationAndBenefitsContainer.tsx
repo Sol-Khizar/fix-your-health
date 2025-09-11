@@ -65,7 +65,7 @@ const ConsultationAndBenefitsContainer = () => {
   ];
   return (
     <>
-      <div className="grid grid-rows-1 md:grid-cols-2  w-5/6 md:w-4/5 mx-auto mt-10 md:mt-14 gap-32 md:gap-14  ">
+      <div className="grid grid-rows-1 md:grid-cols-2  w-5/6 md:w-4/5 mx-auto mt-10 md:mt-14 gap-32 md:gap-14">
         <ConsultationAndBenefitsCard
           buttonText="I think I am ready!"
           textdata={textdata1}

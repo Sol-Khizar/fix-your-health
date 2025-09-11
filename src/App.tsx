@@ -1,6 +1,7 @@
 import ConsultationForm from "./components/ConsultaionForm";
 import FitBanner from "./components/FitBanner";
 import Footer from "./components/Footer";
+import InstagramReels from "./components/InstagramReels";
 import AboutUs from "./section/AboutUs";
 // import Booking from "./section/Booking";
 // import ChangeYourLife from "./section/ChangeYourLife";
@@ -17,13 +18,14 @@ function App() {
         <HeroSection />
         <AboutUs />
         <FitBanner
-          className="my-8 md:mt-14  "
+          className="my-8 md:mt-14"
           title="Become the Next Ayuvive Champion Today"
           buttonTitle="Consult now!"
         />
         <ConsultationAndBenefitsContainer />
         {/* <ChangeYourLife /> */}
         <Transformation />
+        <InstagramReels />
         {/* <Result />
         <Booking />
         <Testimonial /> */}

@@ -2,8 +2,8 @@ import { IoCall } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <div className=" flex  justify-between items-center py-4 ">
-      <img src="assets/logo.png" alt="logo" className="w-20 md:w-40 ml-3" />
+    <div className=" flex  justify-between items-center py-4 md:w-[90%] mx-auto">
+      <img src="assets/logo.png" alt="logo" className="w-20 md:w-30 ml-3" />
       <span className="flex items-center gap-2 mt-2 md:mt-0  mr-2">
         <IoCall className="text-xl md:text-2xl font-extrabold" />
         <span className="text-base md:text-lg font-bold">+91 8433575788</span>
