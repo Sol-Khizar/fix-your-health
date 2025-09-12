@@ -72,7 +72,7 @@ const Transformation = () => {
     <>
       <div className="md:mt-5 mt-14">
 
-        <h1 className="text-2xl md:text-4xl text-center text-[#002040] pt-4 ">
+        <h1 className="text-2xl md:text-4xl text-center text-[#002040] pt-4 md:pt-30 lg:pt-20">
           Tranformation  <span className="border-b-4 border-[#FF9A3F]">Plan</span>
         </h1>
 
@@ -121,7 +121,7 @@ const Transformation = () => {
                   </svg>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 w-full md:w-[82%] z-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 w-full md:w-[82%] z-10">
                   {steps.map((s, idx) => (
                     <motion.article
                       key={s.id}
