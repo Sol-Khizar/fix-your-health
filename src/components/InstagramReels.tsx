@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-// Define the Reel type
+
 interface Reel {
     id: string;
     media_type: string;

@@ -48,7 +48,7 @@ const AboutUs = () => {
           alt="aarti about"
           className="w-4/5 md:w-1/3 rounded-xl "
         />
-        <p className="text-[#002040]  text-md md:text-xl font-semibold w-4/5  md:w-2/5 ">
+        <p className="text-[#002040]  text-sm md:text-md  lg:text-xl font-semibold w-full  md:w-4/5 lg:w-3/5">
           With over 5 years of experience in the health and wellness industry, I’ve worked with leading institutions as a Junior to Senior Dietician and Team Leader. Through my journey, I’ve helped clients overcome a variety of health challenges by identifying their core issues.
           To address these more effectively, I developed the Ayuvive Method — a unique blend of AI technology, Nutrition, and Ayurveda.
           This integrative approach targets the root cause of illness, not just the symptoms.
